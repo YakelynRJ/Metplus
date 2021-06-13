@@ -1,0 +1,13 @@
+{
+  "name": "METPlusContainer",
+  "dockerComposeFile": "docker-compose.yml",
+  "extensions": [
+    "donjayamanne.python-extension-pack"
+  ],
+  "workspaceFolder": "/local-repo",
+  "forwardPorts": [
+    8888
+  ],
+  "service": "metplus-svc",
+  "runServices": ["metplus-svc"]
+}

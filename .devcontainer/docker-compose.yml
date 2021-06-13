@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+    metplus-data:
+        image: dtcenter/metplus-data:3.1-met_tool_wrapper
+        volumes:
+            - metplusdata:/data/input/METplus_Data/met_test
+    metplus-svc:
+        build: .
+        volumes:
+            - metplusdata:/data/input/METplus_Data/met_test
+            - "..:/local-repo"
+        depends_on: 
+            - metplus-data
+        stdin_open: true
+        tty: true
+volumes:
+    metplusdata:

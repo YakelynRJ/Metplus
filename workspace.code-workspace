@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../metplus"
+		},
+		{
+			"path": "../../data/input/METplus_Data/met_test"
+		}
+	],
+	"settings": {}
+}

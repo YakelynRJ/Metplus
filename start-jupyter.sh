@@ -1,0 +1,1 @@
+jupyter lab --ip='*' --allow-root --NotebookApp.token='' --NotebookApp.password='' --notebook-dir=/
