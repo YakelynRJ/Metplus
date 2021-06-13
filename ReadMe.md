@@ -13,5 +13,5 @@ This repo shows how to get easily started with METPlus
 9. Voila...Follow the rest of the tutorial instructions [here](https://dtcenter.org/metplus-practical-session-guide-version-3-0/session-1-metplus-setupgrid-grid/metplus-setup/metplus-user-configuration-settings).
 10. If you want to work with jupyter nootebook in jupyter lab you can open a new terminal  in the local-repo directory and run 
 ```bash
-. start-jupyter.sh.
+. start-jupyter.sh
 ```
