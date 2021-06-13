@@ -15,3 +15,4 @@ This repo shows how to get easily started with METPlus
 ```bash
 . start-jupyter.sh
 ```
+and click on Open in Browser notification. 
