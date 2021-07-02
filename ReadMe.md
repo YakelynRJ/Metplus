@@ -18,7 +18,7 @@ This repo shows how to get easily started with METPlus
 and click on Open in Browser notification. 
 
 ## Mounting local folder
-If you want to link an external folder or drive to the container from your personal machine, please update the container creation [configuration](/.devcontainer/docker-compose.yml). 
+If you want to link an external folder or drive to the container from your personal machine, please update the container creation configuration [./devcontainer/docker-compose.yml](https://github.com/YakelynRJ/Metplus/blob/72a536f8be461c018643602af09aef97b3efa273/.devcontainer/docker-compose.yml#L17). 
 
 If you already opened your folder in a container in Visual Studio Code, you may need to rebuild the container by pressing <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>.
 Rebuild and Reopen Folder in Container. This will recreate your container to mount your data directory. 
