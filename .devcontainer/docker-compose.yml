@@ -10,6 +10,11 @@ services:
         volumes:
             - metplusdata:/data/input/METplus_Data/met_test
             - "..:/local-repo"
+            # If you want to mount your own directory from your computer
+            # to the container, replace the directory in the placeholder below.
+            # Uncomment the line. This will link the <your directory> to the data_input
+            # directory in the container.
+            # - "<your directory>:/data_input"
         depends_on: 
             - metplus-data
         stdin_open: true

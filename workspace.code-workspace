@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../../data/input/METplus_Data/met_test"
+		},
+		{
+			"path": "/data_input"
 		}
 	],
 	"settings": {}
